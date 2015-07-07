@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Messages>
+  <Message key="DBSelect">Retreival of database failure</Message>
+  <Message key="DBInsert">Insertion to database failure</Message>
+  <Message key="DBUpdate">Updation of database failure</Message>
+  <Message key="DBDelete">Deletion of database failure</Message>
+</Messages>

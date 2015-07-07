@@ -1,0 +1,42 @@
+﻿.hStyle
+{
+    color:Maroon;
+    font-family: Monotype Corsiva;
+    text-align: center;
+}
+
+.superScript
+{
+    color: Red;
+    font-weight: bolder;
+    float:left;
+}
+
+.panelAccountInfo
+{
+    width:40%;
+    float:left;
+    padding:5px;
+}
+
+.panelPersonalInfo
+{
+    width:60%;
+    float:left; 
+    padding:5px;    
+}
+
+.weak
+{
+    color:Orange;
+}
+
+.average
+{
+    color:Maroon;
+}
+
+.excellent
+{
+    color:Green;
+}

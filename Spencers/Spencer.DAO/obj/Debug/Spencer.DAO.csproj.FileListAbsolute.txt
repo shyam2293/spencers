@@ -1,0 +1,5 @@
+D:\Spencers\Spencer.DAO\bin\Debug\Spencer.DAO.dll
+D:\Spencers\Spencer.DAO\bin\Debug\Spencer.DAO.pdb
+D:\Spencers\Spencer.DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\Spencers\Spencer.DAO\obj\Debug\Spencer.DAO.dll
+D:\Spencers\Spencer.DAO\obj\Debug\Spencer.DAO.pdb

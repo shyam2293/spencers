@@ -1,0 +1,156 @@
+﻿a:link
+{
+    color:Maroon;
+}
+a:hover
+{
+    color:Lime;
+}
+a:visited
+{
+    color:Green;
+}
+a:active
+{
+    color:Red;
+}
+
+body
+{
+    background-color: #FFFBD6;
+    font-family:Book Antiqua;
+}
+
+.headerDiv
+{
+    width: 100%;
+    height:10%;
+}
+.headerTopDiv
+{
+    width: 100%;
+    float:right;
+    
+}
+
+.headerMiddleDiv
+{
+    width: 100%;
+    text-align: center;
+}
+
+.headerBottomDiv
+{
+    width: 100%;
+    padding-left: 2px;
+    text-align:center;
+}
+
+.headerLabel
+{
+    color: Maroon;
+    font-family: Monotype Corsiva;
+    font-size: xx-large;
+    font-weight: 900;
+    letter-spacing: 8px;
+    word-spacing: 1em;
+}
+.headerTopTabel
+{
+    float:right;    
+}
+
+.bodyDiv
+{
+    height:85%;    
+}
+.contentDiv
+{
+    width: 85%;    
+    float: left;
+    overflow:scroll;
+    position:static;   
+}
+.leftDiv
+{
+	width: 15%;
+	float: left;
+	position:static;
+}
+.footerDiv
+{
+    height:5%;
+    width: 100%;
+    float:left;
+    /*center alignment*/
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;   
+}
+hr
+{
+    border-spacing: 10px;
+    border-style: solid;
+    color: Gray;
+}
+div.center
+{
+    vertical-align:middle;    
+}
+input.textbox
+{
+    width:180px;
+    float:left;
+}
+
+input:focus
+{
+    background-color:#DAA520;
+}
+
+.watermark
+{
+    background-color:#FFFAF0;
+    width:180px;
+    float:left;
+}
+
+.imageIcon
+{
+    width:15px;
+    height:15px;
+    float:left;
+}
+
+.rulerStyle 
+{
+	width:100%;height:2px;color:Gray;
+}
+
+input.button
+{
+    color:Purple;
+}
+
+.hyperLink
+{
+    color:Olive;
+}
+
+.welcome
+{
+    font-style:italic;
+    color:Maroon;
+    font-weight:bold;    
+}
+
+.catDataList
+{
+    padding:100px;    
+}
+
+.productAutoComplete
+{
+    background-color:Black;
+    color:White;
+}

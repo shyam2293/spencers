@@ -1,0 +1,14 @@
+D:\Spencers\Spencer.Utility\obj\Debug\ResolveAssemblyReference.cache
+D:\Spencers\Spencer.Utility\bin\Debug\Spencer.Utility.dll
+D:\Spencers\Spencer.Utility\bin\Debug\Spencer.Utility.pdb
+D:\Spencers\Spencer.Utility\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Spencers\Spencer.Utility\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Spencers\Spencer.Utility\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Spencers\Spencer.Utility\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Spencers\Spencer.Utility\obj\Debug\Spencer.Utility.dll
+D:\Spencers\Spencer.Utility\obj\Debug\Spencer.Utility.pdb
+D:\Spencers\Spencer.Utility\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Spencers\Spencer.Utility\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Spencers\Spencer.Utility\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Spencers\Spencer.Utility\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Spencers\Spencer.Utility\bin\Debug\Microsoft.Practices.Unity.Interception.xml

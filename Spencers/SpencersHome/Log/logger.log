@@ -1,0 +1,528 @@
+----------------------------------------
+General Error: 0 : Timestamp: 12/9/2010 4:52:32 PM
+Message: UserDetailsDatabaseService->CreateUser()
+Category: General
+Priority: -1
+EventId: 0
+Severity: Error
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-1-129363672993923800
+ProcessId: 1760
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:3804
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+All Events Error: 0 : Timestamp: 12/13/2010 5:15:31 PM
+Message: ProductDBLL->RetreiveProducts()
+Category: General Category
+Priority: -1
+EventId: 0
+Severity: Error
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 11:45:31 AM
+Message: Method: RetreiveAllProduct
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 11:45:31 AM
+Message: Line: 97
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 11:45:31 AM
+Message: Column: 21
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+All Events Error: 0 : Timestamp: 12/13/2010 5:15:32 PM
+Message: ProductDBLL->RetreiveProducts()
+Category: General Category
+Priority: -1
+EventId: 0
+Severity: Error
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 11:45:32 AM
+Message: Method: RetreiveAllProduct
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 11:45:32 AM
+Message: Line: 97
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 11:45:32 AM
+Message: Column: 21
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+All Events Error: 0 : Timestamp: 12/13/2010 5:17:08 PM
+Message: ProductDBLL->RetreiveProducts()
+Category: General Category
+Priority: -1
+EventId: 0
+Severity: Error
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 11:47:08 AM
+Message: Method: RetreiveAllProduct
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 11:47:08 AM
+Message: Line: 99
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 11:47:08 AM
+Message: Column: 17
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+All Events Error: 0 : Timestamp: 12/13/2010 6:02:19 PM
+Message: ProductDBLL->RetreiveProducts()
+Category: General Category
+Priority: -1
+EventId: 0
+Severity: Error
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:32:19 PM
+Message: Method: RetreiveAllProduct
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:32:19 PM
+Message: Line: 97
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:32:19 PM
+Message: Column: 21
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+All Events Error: 0 : Timestamp: 12/13/2010 6:02:29 PM
+Message: ProductDBLL->RetreiveProducts()
+Category: General Category
+Priority: -1
+EventId: 0
+Severity: Error
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:32:29 PM
+Message: Method: RetreiveAllProduct
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:32:29 PM
+Message: Line: 97
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:32:29 PM
+Message: Column: 21
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+All Events Error: 0 : Timestamp: 12/13/2010 6:02:34 PM
+Message: ProductDBLL->RetreiveProducts()
+Category: General Category
+Priority: -1
+EventId: 0
+Severity: Error
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:32:34 PM
+Message: Method: RetreiveAllProduct
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:32:34 PM
+Message: Line: 97
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:32:34 PM
+Message: Column: 21
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+All Events Error: 0 : Timestamp: 12/13/2010 6:03:08 PM
+Message: ProductDBLL->RetreiveProducts()
+Category: General Category
+Priority: -1
+EventId: 0
+Severity: Error
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:33:08 PM
+Message: Method: RetreiveAllProduct
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:33:08 PM
+Message: Line: 97
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:33:08 PM
+Message: Column: 21
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:480
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+All Events Error: 0 : Timestamp: 12/13/2010 6:04:16 PM
+Message: ProductDBLL->RetreiveProducts()
+Category: General Category
+Priority: -1
+EventId: 0
+Severity: Error
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:34:16 PM
+Message: Method: RetreiveAllProduct
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:34:16 PM
+Message: Line: 97
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/13/2010 12:34:16 PM
+Message: Column: 21
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: U63R2S1
+App Domain: 6940bcc1-8-129367125629441096
+ProcessId: 416
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE
+Thread Name: 
+Win32 ThreadId:1848
+Extended Properties: 
+----------------------------------------

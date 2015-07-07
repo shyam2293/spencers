@@ -1,0 +1,22 @@
+﻿.panelLogin
+{
+    width:40%;
+    height:100%;
+    color:WindowText;
+    float:left;
+    border-width:thick;
+}
+
+.superScript
+{
+    color: Red;
+    font-weight: bolder;
+    float:left;
+}
+
+.hStyle
+{
+    color:Maroon;
+    font-family: Monotype Corsiva;
+    text-align: center;    
+}

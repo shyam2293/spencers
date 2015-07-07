@@ -1,0 +1,29 @@
+﻿a:link
+{
+    color:Green;
+}
+a:hover
+{
+    color: Purple;
+}
+a:visited
+{
+    color:Silver;
+}
+a:active
+{    
+    color: #FFBBFF;
+}
+
+input.textbox
+{
+    width:180px;
+    float:left;
+}
+
+input:hover
+{
+    background-color:Aqua;
+}
+
+ms-help://MS.VSCC.v90/MS.MSDNQTR.v90.en/css/workshop/author/dhtml/reference/colors/colors_name.htm

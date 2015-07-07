@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SpencersHome.master.cs"
+    Inherits="Master_SpencersMasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     
+    <script src="../../../Modules/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" type="text/css" href="../Common/CSS/MasterStyleSheet.css" />
+    <%--<script src="../Modules/js/jquery-2.1.4.min.js" type="text/javascript"></script>--%>
+   
+</head>
+<body>
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+        var u = "//impc1523/piwik/";
+        _paq.push(['setTrackerUrl', u + 'piwik.php']);
+        _paq.push(['setSiteId', 3]);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+    })();
+   
+</script>
+<noscript><p><img src="//impc1523/piwik/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+    <form id="form1" runat="server">
+    <div class="headerDiv">
+        <div class="headerTopDiv">
+            <table class="headerTopTabel" cellspacing="5px" cellpadding="5px">
+                <tr>
+                    <td>
+                        <asp:Label ID="WelcomeLabel" runat="server" CssClass="welcome"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:LinkButton ID="LoginLink" Text="Login" runat="server" OnClick="LoginLink_Click1"></asp:LinkButton>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="RegisterLink" runat="server" Text="Register" NavigateUrl="~/Modules/aspx/public/Register.aspx"></asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="WishListLink" runat="server" Text="WishList" NavigateUrl="~/Modules/aspx/WishList.aspx"></asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="MyAccountLink" Text="MyAccount" runat="server" NavigateUrl="~/Modules/aspx/MyAccount.aspx"></asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="MyCartLink" Text="MyCart" runat="server" NavigateUrl="~/Modules/aspx/MyCart.aspx"></asp:HyperLink>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="headerMiddleDiv">
+            <asp:Label ID="Headerlabel" runat="server" CssClass="headerLabel" Text="Spencer's Online"></asp:Label>
+            <br />
+            <asp:Label ID="CommonLabel" runat="server"></asp:Label>
+        </div>
+        <div class="headerBottomDiv">
+            <asp:Menu ID="MenuBar" ForeColor="#990000" runat="server" ItemWrap="True" Orientation="Horizontal"
+                StaticMenuItemStyle-ItemSpacing="10px" BackColor="#FFFBD6" DynamicHorizontalOffset="2"
+                Font-Names="Verdana" Font-Size="0.9em" StaticSubMenuIndent="10px" StaticSelectedStyle-HorizontalPadding="20px">
+                <StaticSelectedStyle BackColor="#FFCC66" />
+                <StaticMenuItemStyle VerticalPadding="2px" ItemSpacing="10px" HorizontalPadding="5px" />
+                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                <DynamicMenuStyle BackColor="#FFFBD6" />
+                <DynamicSelectedStyle BackColor="#FFCC66" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Modules/aspx/public/Default.aspx" ImageUrl="" Text="Home">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Modules/aspx/public/Products.aspx" ImageUrl="" Text="Products">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Modules/aspx/public/Policy.aspx" ImageUrl="" Text="Policy">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Modules/aspx/public/ContactUs.aspx" ImageUrl="" Text="Contact Us">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Modules/aspx/Feedback.aspx" ImageUrl="" Text="Feedback">
+                    </asp:MenuItem>
+                </Items>
+            </asp:Menu>
+        </div>
+    </div>
+    <div class="bodyDiv">
+        <div class="leftDiv">
+            <asp:DataList ID="CategoryIdDataList" CssClass="catDataList" runat="server" DataMember="DefaultView"
+                DataKeyField="CategoryId" CellPadding="3" CellSpacing="6" Font-Bold="True" Font-Size="Medium"
+                Width="136px">
+                <HeaderTemplate>
+                    <asp:Label Text="Category List" runat="server"></asp:Label>
+                </HeaderTemplate>
+                <HeaderStyle BorderColor="#FFCC00" BorderWidth="1px" />
+                <ItemTemplate>
+                    <asp:HyperLink ID="CategoryLink" Text='<%# Eval("CategoryName") %>' NavigateUrl='<%# Eval("CategoryId","~/Modules/aspx/public/Products.aspx?catId={0}") %>'
+                        runat="server"></asp:HyperLink>
+                </ItemTemplate>
+                <ItemStyle BorderColor="#FFCC00" BorderStyle="Outset" BorderWidth="2px" />
+            </asp:DataList>
+            <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+            </asp:ScriptManager>
+        </div>
+        <div class="contentDiv">
+            <asp:ContentPlaceHolder ID="ContentHolder1" runat="server">
+                ContentSample</asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class="footerDiv">
+        <hr />
+        <asp:Label ID="FooterLabel" runat="server" Font-Italic="True" Font-Size="Small">&copy; All rights reserved for Spencer's</asp:Label>
+    </div>
+    </form>
+</body>
+</html>
