@@ -50,7 +50,110 @@ namespace Spencer.DBLL
                 database = null;
             }
         }
-
+ public int InsertProductComment1(FeedbackDAO userFeedback)
+        {
+            Database database = null;
+            DbCommand insertCommand = null;
+            try
+            {
+                database = DatabaseFactory.CreateDatabase();
+                insertCommand = database.GetStoredProcCommand("uspInsertProductComment");
+                database.AddInParameter(insertCommand, "userId", DbType.String,userFeedback.UserID);
+                database.AddInParameter(insertCommand, "productId", DbType.String, userFeedback.ProductId);
+                database.AddInParameter(insertCommand, "description", DbType.String,userFeedback.Description);
+                return database.ExecuteNonQuery(insertCommand);
+            }
+            catch (Exception ex)
+            {
+                SpencerLogger.Error("ProductDBLL->InsertProductComment()", ex);
+                throw new BaseException("DBInsert");
+            }
+            finally
+            {
+                if (insertCommand.Connection.State == ConnectionState.Open)
+                    insertCommand.Connection.Close();
+                insertCommand = null;
+                database = null;
+            }
+        }
+		 public int InsertProductComment2(FeedbackDAO userFeedback)
+        {
+            Database database = null;
+            DbCommand insertCommand = null;
+            try
+            {
+                database = DatabaseFactory.CreateDatabase();
+                insertCommand = database.GetStoredProcCommand("uspInsertProductComment");
+                database.AddInParameter(insertCommand, "userId", DbType.String,userFeedback.UserID);
+                database.AddInParameter(insertCommand, "productId", DbType.String, userFeedback.ProductId);
+                database.AddInParameter(insertCommand, "description", DbType.String,userFeedback.Description);
+                return database.ExecuteNonQuery(insertCommand);
+            }
+            catch (Exception ex)
+            {
+                SpencerLogger.Error("ProductDBLL->InsertProductComment()", ex);
+                throw new BaseException("DBInsert");
+            }
+            finally
+            {
+                if (insertCommand.Connection.State == ConnectionState.Open)
+                    insertCommand.Connection.Close();
+                insertCommand = null;
+                database = null;
+            }
+        }
+		 public int InsertProductComment3(FeedbackDAO userFeedback)
+        {
+            Database database = null;
+            DbCommand insertCommand = null;
+            try
+            {
+                database = DatabaseFactory.CreateDatabase();
+                insertCommand = database.GetStoredProcCommand("uspInsertProductComment");
+                database.AddInParameter(insertCommand, "userId", DbType.String,userFeedback.UserID);
+                database.AddInParameter(insertCommand, "productId", DbType.String, userFeedback.ProductId);
+                database.AddInParameter(insertCommand, "description", DbType.String,userFeedback.Description);
+                return database.ExecuteNonQuery(insertCommand);
+            }
+            catch (Exception ex)
+            {
+                SpencerLogger.Error("ProductDBLL->InsertProductComment()", ex);
+                throw new BaseException("DBInsert");
+            }
+            finally
+            {
+                if (insertCommand.Connection.State == ConnectionState.Open)
+                    insertCommand.Connection.Close();
+                insertCommand = null;
+                database = null;
+            }
+        }
+		 public int InsertProductComment4(FeedbackDAO userFeedback)
+        {
+            Database database = null;
+            DbCommand insertCommand = null;
+            try
+            {
+                database = DatabaseFactory.CreateDatabase();
+                insertCommand = database.GetStoredProcCommand("uspInsertProductComment");
+                database.AddInParameter(insertCommand, "userId", DbType.String,userFeedback.UserID);
+                database.AddInParameter(insertCommand, "productId", DbType.String, userFeedback.ProductId);
+                database.AddInParameter(insertCommand, "description", DbType.String,userFeedback.Description);
+                return database.ExecuteNonQuery(insertCommand);
+            }
+            catch (Exception ex)
+            {
+                SpencerLogger.Error("ProductDBLL->InsertProductComment()", ex);
+                throw new BaseException("DBInsert");
+            }
+            finally
+            {
+                if (insertCommand.Connection.State == ConnectionState.Open)
+                    insertCommand.Connection.Close();
+                insertCommand = null;
+                database = null;
+            }
+        }
         /// <summary>
         /// retreives users comments of a product
         /// </summary>
